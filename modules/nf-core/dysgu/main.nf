@@ -4,7 +4,7 @@ process DYSGU {
 
     conda "${moduleDir}/environment.yml"
     container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
-        'oras://community.wave.seqera.io/library/dysgu:48830f55112c399e':
+        'oras://community.wave.seqera.io/library/dysgu:48830f55112c399e' :
         'community.wave.seqera.io/library/dysgu:faf71ac972284412' }"
 
     input:
