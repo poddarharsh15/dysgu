@@ -39,6 +39,12 @@ input:
       description: |
         Groovy Map containing reference information
         e.g. [ id:'genome' ]
+  - meta3:
+      type: map
+      description: |
+        Groovy Map containing reference information
+        e.g. [ id:'genome' ]
+
   - fai:
       type: file
       description: Genome reference FASTA index file
