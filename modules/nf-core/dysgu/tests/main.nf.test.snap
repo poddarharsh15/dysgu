@@ -60,7 +60,31 @@
         },
         "timestamp": "2024-07-08T12:55:30.52851"
     },
+    "human - bam": {
+        "content": [
+            [
+
+            ]
+        ],
+        "meta": {
+            "nf-test": "0.8.4",
+            "nextflow": "24.04.2"
+        },
+        "timestamp": "2024-07-11T11:15:26.700893"
+    },
     "human - cram": {
+        "content": [
+            [
+
+            ]
+        ],
+        "meta": {
+            "nf-test": "0.8.4",
+            "nextflow": "24.04.2"
+        },
+        "timestamp": "2024-07-11T11:15:43.557101"
+    },
+    "bam": {
         "content": [
             [
                 "versions.yml:md5,cf1e0487502108690603dd16f034bf5e"
